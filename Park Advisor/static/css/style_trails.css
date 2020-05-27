@@ -1,0 +1,35 @@
+.masthead {
+  height: 50vh;
+  min-height: 500px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2a/Devils_Garden_Trailhead_at_Arches_National_Park.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.trails-header {
+  font-weight: 700;
+  font-size: 3.5em;
+  color: white;
+}
+
+.trails-tagline {
+  font-weight: 300;
+  font-size: 2.5em;
+  color: white;
+}
+
+#map {
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  padding: auto;
+  margin-top: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+

@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Post-Quarantine Trip Advisor - Home</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, minimal-ui">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://use.typekit.net/hoh3yvr.css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass:100,300,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+  </head>
+
+  <body id="home">
+    <div id="hero">
+      <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+      <video id="video-background" autoplay loop muted playsinline poster="/img/poster.jpg">
+        <source src="images/front.mp4">
+      </video>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success px-2 py-0">
+        <a class="navbar-brand text-white font-family-serif bg-success p-2 ml-5" href="index.html">
+          <img src="images/tree-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Post-Quarantine Park Advisor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Visualizations
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="locations.html">Park Locations</a>
+                <a class="dropdown-item" href="features.html">Park Features</a>
+                <a class="dropdown-item" href="trails.html">Park Trails</a>
+                <a class="dropdown-item" href="wildlife.html">Wildlife</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data Sources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row intro-copy align-bottom">
+          <div class="small-12 medium-12 large-offset-7 columns load">
+            <h1><span>Post-Quarantine</span><span>Park Advisor</span></h1>
+            <p>Quarantine blues got you feeling cooped up?  Going loony in lockdown?  Plan your next trip after all the COVID-craziness ends with our handy-dandy Post-Quarantine Park Advisor!</p>
+          </div>
+          <div class="small-12 medium-6 large-7 columns load">
+            <a class="down-arrow" href="#approach"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="approach">
+      <div class="container">
+        <div class="row align-center">
+          <div class="small-12 medium-12 large-10 columns">
+            <h3 class="hidden-section hidden">Our Purpose</h3>
+            <p class="hidden-section hidden">National parks are a wonderous and inspiring feature of the United States.  Have you ever been curious about the national parks near you?  Where are they located? What animals might you see there?  Do they have campgrounds, trails, amenities?  Well worry no more, our website is here to help!Use our interactive map to find a park and see its location, entrance fees, and hoursof operation.  Then explore our informative bar charts to determine the number campgrounds, trails, and events you can enjoy at each park.Interested in getting out and experiencing nature up close?  Search our extensive table about the wildlife you could encounter during your trip.  Then head over to ourcluster map to get more information about the hiking trails available such as difficulty and popularity.Once you’ve chosen a specific park, head on over to our Summary page to get all the information you could ever want about the park’s amenities, events, weather, and contact information.So don’t let the lockdown get YOU down!  Once this is all over, use our Post-Quarantine Park Advisor to plan your next outdoor adventure!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="arriving" class="hidden-section hidden" data-threshold="60">
+      <div class="main-mtn-bg"></div>
+      <div class="container">
+        <div class="row align-center">
+          <div class="small-12 medium-12 large-10 columns">
+            <h3 class="hidden">2020</h3>
+            <h1 class="hidden">Stay Healthy!</h1>
+            <div class="laptop">
+              <div class="mountain-bg"><div class="bg"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="hidden-section hidden">
+      <div class="container">
+        <div class="row align-center">
+          <div class="small-12 medium-6 large-3 columns">
+            <p>UCI Data Analytics Bootcamp Project 2</p>
+          </div>
+          <div class="small-12 medium-6 large-3 columns">
+            <h3>Location</h3>
+            <address>
+              <a>HOME</a>
+            </address>
+          </div>
+          <div class="small-12 medium-6 large-3 columns">
+            <h3>Contact</h3>
+            <a>Slack Us!</a> </br>
+          </div>
+          <div class="small-12 medium-6 large-3 columns">
+            <h3>Source</h3>
+            <a href="https://www.youtube.com/watch?v=zTBmv-Gzf2w">Touropia</a> </br>
+            <a href="https://www.bienvillecapital.com/">Style</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="static/js/index.js"></script>
+
+    <script type="text/javascript">
+      piAId = '499241';
+      piCId = '7084';
+      piHostname = 'pi.pardot.com';
+
+      (function() {
+        function async_load(){
+          var s = document.createElement('script'); s.type = 'text/javascript';
+          s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+          var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+        }
+        if(window.attachEvent) { window.attachEvent('onload', async_load); }
+        else { window.addEventListener('load', async_load, false); }
+      })();
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-20484083-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
